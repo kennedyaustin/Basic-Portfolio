@@ -26,7 +26,7 @@ body {
     font-size: large;
     padding: 25px;
     position: absolute;
-    left: 280px;
+    left: 284px;
     top: 0px;
 }
 
@@ -55,7 +55,7 @@ body {
 }
 
 .NavLinks {
-    margin-right: 280px;
+    margin-right: 281px;
 }
 
 
@@ -70,10 +70,6 @@ body {
   }
   
   #AboutMe {
-    font-family: 'Georgia', 'Times New Roman', Times, serif;
-    font-weight: bold;
-    font-size: x-large;
-    color: #4aaaa5; 
     position: absolute;
     z-index: 3;
     left: 0;
@@ -88,13 +84,30 @@ body {
     border: #cccccc solid 1px;
   }
 
+  #Me {
+    font-family: 'Georgia', 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: x-large;
+    color: #4aaaa5; 
+    position: absolute;
+    z-index: 3;
+    left: 0;
+    top: 30px;
+    padding: 20px;
+    padding-top: 30px;
+    margin-left: 10px;
+  }
+
   #AboutMeText {
       font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
       font-size: 14px;
-      padding-top: 20px;
+      /* Padding-top will move the border up top away from the text */
+      padding-top: 25px;
       color: #777777;
       position: relative;
       z-index: 3;
-      top: 0px;
+      top: 90px;
       text-align: left;
+      border-top: #cccccc solid 2px;
+      margin-left: 10px;
   }
