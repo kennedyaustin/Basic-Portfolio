@@ -3,7 +3,7 @@ a {
     text-decoration: none;
 }
 
-.My-Name {
+.MyName {
     font-family: 'Georgia', 'Times New Roman', Times, serif;
     background: #4aaaa5;
     color: white; 
@@ -11,6 +11,7 @@ a {
     font-size: large;
     padding: 25px;
     position: absolute;
+    left: 275px;
 }
 
 .boundary {
@@ -38,3 +39,41 @@ button {
     float: right;
 }
 
+img {
+    width: 2000px;
+    height: 700px;
+    position: relative;
+    bottom: 71px;
+    right: 300px;
+    z-index: 1;
+    border-top: #cccccc solid 2px;
+}
+
+
+#aboutrelative {
+    position: relative;
+    z-index: 3;
+    height: 200px;
+    padding: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    top: 67px;
+  }
+  
+  #aboutabsolute {
+    font-family: 'Georgia', 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: large;
+    color: #4aaaa5; 
+    position: absolute;
+    z-index: 3;
+    left: 0;
+    top: 30px;
+    width: 960px;
+    height: 400px;
+    padding: 20px;
+    padding-top: 30px;
+    text-align: left;
+    background: #ffffff;
+    border: #cccccc solid 1px;
+  }
