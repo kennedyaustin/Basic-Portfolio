@@ -228,8 +228,36 @@ body {
     z-index: 6;
     width: 925px;
     height: 2px;
-    background: #777777;
+    background: #cccccc;
     top: 197px;
     left: 315px;
   }
 
+  #PortfolioBox {
+    position: absolute;
+    z-index: 3;
+    right: -513px;
+    top: -30px;
+    width: 960px;
+    height: 450px;
+    padding: 20px;
+    padding-top: 30px;
+    margin-right: 10px;
+    text-align: left;
+    background: #ffffff;
+    border: #cccccc solid 1px;
+  }
+
+  #PortfolioHeader {
+    font-family: 'Georgia', 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: x-large;
+    color: #4aaaa5; 
+    position: absolute;
+    z-index: 3;
+    left: -463px;
+    top: -30px;
+    padding: 20px;
+    padding-top: 30px;
+    margin-left: 10px;
+  }
