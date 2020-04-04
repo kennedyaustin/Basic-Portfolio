@@ -66,10 +66,12 @@ body {
 
 .Portfolio {
     float: right;
+    margin-right: 10px;
 }
 
 .About {
     float: right;
+    margin-right: 10px;
 }
 
 .Nav {
