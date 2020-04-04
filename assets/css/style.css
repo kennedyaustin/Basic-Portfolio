@@ -234,12 +234,12 @@ body {
   }
 
   #PortfolioBox {
-    position: absolute;
+    position: relative;
     z-index: 3;
-    right: -513px;
-    top: -30px;
+    right: 12px;
+    top: -50px;
     width: 960px;
-    height: 450px;
+    height: 780px;
     padding: 20px;
     padding-top: 30px;
     margin-right: 10px;
@@ -253,11 +253,63 @@ body {
     font-weight: bold;
     font-size: x-large;
     color: #4aaaa5; 
-    position: absolute;
-    z-index: 3;
-    left: -463px;
-    top: -30px;
+    position: relative;
+    z-index: 7;
+    left: -390px;
+    top: -880px;
     padding: 20px;
     padding-top: 30px;
     margin-left: 10px;
   }
+
+  .Box1 {
+    position: relative;
+    z-index: 6;
+    top: -120px;
+    left: 40px;
+  }
+
+  .Text {
+    position: absolute;
+
+  }
+
+  .Box2 {
+    position: relative;
+    z-index: 6;
+    top: -90px;
+    left: 40px;
+  }
+
+  .Box3 {
+    position: relative;
+    z-index: 6;
+    top: -60px;
+    left: 40px;
+  }
+
+  .Box4 {
+    position: relative;
+    z-index: 6;
+    top: -725px;
+    left: 280px;
+  }
+
+  .Box5 {
+    position: relative;
+    z-index: 6;
+    top: -700px;
+    left: 280px;
+  }
+
+.linePort {
+  position: relative;
+    z-index: 6;
+    width: 925px;
+    height: 2px;
+    background: #cccccc;
+    top: 110px;
+    left: 40px;
+}
+
+
