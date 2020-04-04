@@ -318,3 +318,7 @@ body {
     top: 110px;
     left: 40px;
 }
+
+.Text a {
+  color: #ffffff;
+}
