@@ -222,6 +222,7 @@ body {
     height: 50px;
   }
 
+  /* This was just an easy way for me to put a border between the word "Contact" and the form */
   .line {
     position: absolute;
     z-index: 6;
@@ -231,3 +232,4 @@ body {
     top: 197px;
     left: 315px;
   }
+
