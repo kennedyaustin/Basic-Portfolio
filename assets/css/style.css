@@ -34,6 +34,7 @@ button {
     line-height: 5; 
 }
 
+/* This ccs code fits the background image chosen to the back of the webpage */
 body {
     overflow-x: hidden;
     display: flex;
@@ -96,7 +97,7 @@ body {
     top: 67px;
   }
   
-  #AboutMe {
+  #AboutMeBox {
     position: absolute;
     z-index: 3;
     left: 0;
@@ -111,7 +112,7 @@ body {
     border: #cccccc solid 1px;
   }
 
-  #Me {
+  #AboutMeHeader {
     font-family: 'Georgia', 'Times New Roman', Times, serif;
     font-weight: bold;
     font-size: x-large;
@@ -152,4 +153,33 @@ body {
 
   .writingedit {
       line-height: 25px;
+  }
+
+   #ContactBox {
+    position: absolute;
+    z-index: 3;
+    right: -513px;
+    top: -30px;
+    width: 960px;
+    height: 400px;
+    padding: 20px;
+    padding-top: 30px;
+    margin-right: 10px;
+    text-align: left;
+    background: #ffffff;
+    border: #cccccc solid 1px;
+  }
+
+   #ContactHeader {
+    font-family: 'Georgia', 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: x-large;
+    color: #4aaaa5; 
+    position: absolute;
+    z-index: 3;
+    left: 0;
+    top: -30px;
+    padding: 20px;
+    padding-top: 30px;
+    margin-left: 10px;
   }
